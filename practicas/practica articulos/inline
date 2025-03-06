@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title>Inline</title>
+</head>
+<body>
+    <header>
+        
+    <h1>Inline Elements</h1>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>Se usa para crear un hipervinculo para ir de una pagina a otra</td>
+        </tr>
+        <tr>
+            <td>abbr</td>
+            <td>Se usa para definir una abreviatura</td>
+        </tr>
+        <tr>
+            <td>acronym</td>
+            <td>Se usa para definir un acronimo</td>
+        </tr>
+        <tr>
+            <td>b</td>
+            <td>Se usa para poner texto en negrita</td>
+        </tr>
+        <tr>
+            <td>bdo</td>
+            <td>Se usa para definir la direccion del texto</td>
+        </tr>
+        <tr>
+            <td>big</td>
+            <td>Se usa para definir un texto grande</td>
+        </tr>
+        <tr>
+            <td>br</td>
+            <td>Se usa para hacer un salto de linea</td>
+        </tr>
+        <tr>
+            <td>button</td>
+            <td>Se usa para crear un boton</td>
+        </tr>
+        <tr>
+            <td>cite</td>
+            <td>Se usa para definir una cita</td>
+        </tr>
+        <tr>
+            <td>code</td>
+            <td>Se usa para definir un codigo de programacion</td>
+        </tr>
+        <tr>
+            <td>dfn</td>
+            <td>Se usa para definir un termino que se esta definiendo</td>
+        </tr>
+        <tr>
+            <td>em</td>
+            <td>Se usa para dar enfasis a un texto</td>
+        </tr>
+        <tr>
+            <td>i</td>
+            <td>Se usa para insertar texto en italic</td>
+        </tr>
+        <tr>
+            <td>img</td>
+            <td>Se usa para insertar una imagen en la pagina</td>
+        </tr>
+        <tr>
+            <td>input</td>
+            <td>Se usa para crear un campo de texto</td>
+        </tr>
+        <tr>
+            <td>kbd</td>
+            <td>Se usa para definir un texto que se debe introducir por el usuario</td>
+        </tr>
+        <tr>
+            <td>label</td>
+            <td>Se usa para crear una etiqueta para un campo de texto</td>
+        </tr>
+         <td>map</td>
+        <td>Se usa para imagenes con zonas de click</td>
+       </tr>
+        <tr>
+            <td>object</td>
+            <td>Se usa para insertar un objeto multimedia</td>
+        </tr>
+        <tr>
+            <td>output</td>
+            <td>resultado de un calculo como scripts</td>
+        </tr>
+        <tr>
+            <td>q</td>
+            <td>Se usa para definir una cita corta</td>
+        </tr>
+        <tr>
+            <td>script</td>
+            <td>Se usa para definir un texto que es una muestra de un codigo de programacion</td>
+        </tr>
+        <tr>
+            <td>select</td>
+            <td>Se usa para crear una lista desplegable</td>
+        </tr>
+        <tr>
+            <td>small</td>
+            <td>Se usa para definir un texto pequeno</td>
+        </tr>
+        <tr>
+            <td>span</td>
+            <td>Se usa para aplicar estilos a un texto o a un grupo de elementos</td>
+        </tr>
+        <tr>
+            <td>strong</td>
+            <td>Se usa para dar enfasis a un texto</td>
+        </tr>
+        <tr>
+            <td>sub</td>
+            <td>Se usa para definir un texto subindice</td>
+        </tr>
+        <tr>
+            <td>sup</td>
+            <td>Se usa para definir un texto superindice</td>
+        </tr>
+        <tr>
+            <td>textarea</td>
+            <td>Se usa para crear un campo de texto de varias lineas</td>
+        </tr>
+        <tr>
+            <td>time</td>
+            <td>Se usa para mostrar fecha y/o hora</td>
+        </tr>
+        <tr>
+            <td>tt</td>
+            <td>Se usa para definir un texto en una tipografia de maquina de escribir</td>
+        </tr>
+        <tr>
+            <td>var</td>
+            <td>Se usa para definir una variable</td>
+        </tr>
+    </table>
+
+    <p> 
+        <a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">Fuente</a>
+    </p>
+
+    <p> 
+        <a href="index">Regresa a la pagina principal</a>
+    </p>
+</body>
+</html>

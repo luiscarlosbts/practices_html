@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Médico</title>
+</head>
+<body bgcolor="#f0f0f0">
+    <div style="text-align: center;">
+        <form action="file2.html" method="get" style="display: inline-block; text-align: left;">
+            <fieldset>
+                <legend>Información Personal</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre(s)</label></td>
+                        <td><input type="text" id="nombre" name="nombre" placeholder="Nombre" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido">Apellido(s)</label></td>
+                        <td><input type="text" id="apellido" name="apellido" placeholder="Apellido" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha_nacimiento">Fecha de Nacimiento</label></td>
+                        <td><input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="direccion">Dirección</label></td>
+                        <td><input type="text" id="direccion" name="direccion" placeholder="Dirección" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="correo">Correo</label></td>
+                        <td><input type="email" id="correo" name="correo" placeholder="Correo" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Teléfono</label></td>
+                        <td><input type="tel" id="telefono" name="telefono" placeholder="Teléfono"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="personaex">Nombre de persona en caso de emergencia</label></td>
+                        <td><input type="text" id="personaex" name="persona_externa" placeholder="Nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono_emergencia">Teléfono de la persona</label></td>
+                        <td><input type="tel" id="telefono_emergencia" name="telefono_emergencia" placeholder="Teléfono"></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información Adicional</legend>
+                <table>
+                    <tr>
+                        <td><label for="genero">Género</label></td>
+                        <td>
+                            <select name="genero" id="genero" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="Hombre">Hombre</option>
+                                <option value="Mujer">Mujer</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Discapacidad Visual</label></td>
+                        <td><input type="checkbox" id="dv" name="discapacidad" value="visual"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Discapacidad Auditiva</label></td>
+                        <td><input type="checkbox" id="da" name="discapacidad" value="auditiva"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Discapacidad Motriz</label></td>
+                        <td><input type="checkbox" id="dm" name="discapacidad" value="motriz"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Discapacidad Intelectual</label></td>
+                        <td><input type="checkbox" id="di" name="discapacidad" value="intelectual"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Discapacidad Psicosocial</label></td>
+                        <td><input type="checkbox" id="dp" name="discapacidad" value="psicosocial"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="otra_discapacidad">Otra</label></td>
+                        <td><textarea id="otra_discapacidad" name="otra_discapacidad" placeholder="Especificar otra discapacidad"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="edad">Edad</label></td>
+                        <td><input type="number" id="edad" name="edad" placeholder="Edad" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ocupacion">Ocupación</label></td>
+                        <td>
+                            <select name="ocupacion" id="ocupacion">
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="Estudiante">Estudiante</option>
+                                <option value="Trabajador">Trabajador</option>
+                                <option value="Desempleado">Desempleado</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="fecha">Fecha</label></td>
+                        <td><input type="date" id="fecha" name="fecha" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="hora">Hora</label></td>
+                        <td><input type="time" id="hora" name="hora"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="peso">Peso (kg)</label></td>
+                        <td><input type="number" id="peso" name="peso" placeholder="Peso" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="altura">Altura (cm)</label></td>
+                        <td><input type="number" id="altura" name="altura" placeholder="Altura" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="grupo_sanguineo">Grupo Sanguíneo</label></td>
+                        <td>
+                            <select name="grupo_sanguineo" id="grupo_sanguineo" required>
+                                <option value="" disabled selected>Selecciona una opción</option>
+                                <option value="A+">A+</option>
+                                <option value="A-">A-</option>
+                                <option value="B+">B+</option>
+                                <option value="B-">B-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                                <option value="O+">O+</option>
+                                <option value="O-">O-</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Historial Médico</legend>
+                <table>
+                    <tr>
+                        <td><label for="alergias">Alergias</label></td>
+                        <td><textarea name="alergias" id="alergias" placeholder="Alergias"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="medicamentos">Medicamentos Actuales</label></td>
+                        <td><textarea name="medicamentos" id="medicamentos" placeholder="Medicamentos Actuales"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="historial_medico">Historial Médico</label></td>
+                        <td><textarea name="historial_medico" id="historial_medico" placeholder="Historial Médico"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Detalles</legend>
+                <table>
+                    <tr>
+                        <td><label for="detalles">Detalles</label></td>
+                        <td><textarea name="detalles" id="detalles" placeholder="Detalles"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sintomas">Síntomas</label></td>
+                        <td><textarea name="sintomas" id="sintomas" placeholder="Síntomas"></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+
+            <div style="text-align: center;">
+                <input type="reset" value="Borrar" style="width: 100px; height: 40px;">
+                <input type="submit" value="Enviar" style="width: 100px; height: 40px;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

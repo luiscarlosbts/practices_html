@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title></title>
+</head>
+<body>
+    <header>
+        
+    <h1>Lista de Blocks</h1>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Descripcion</td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>Información de contacto.</td>
+        </tr>
+        <tr>
+            <td>Article</td>
+            <td>Contenido de Articulo.</td>
+        </tr>
+        <tr>
+            <td>Aside</td>
+            <td>Contenido adicional.</td>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>Reproductor de audio</td>
+        </tr>
+        <tr>
+            <td>Blockquote</td>
+            <td>Bloque de "cita".</td>
+        </tr>
+        <tr>
+            <td>Canvas</td>
+            <td>Dibujo canvas.</td>
+        </tr>
+        <tr>
+            <td>dd</td>
+            <td>Descripción de definición.</td>
+        </tr>
+        <tr>
+            <td>div</td>
+            <td>División de documento.</td>
+        </tr>
+        <tr>
+            <td>dl</td>
+            <td>Lista de definición.</td>
+        </tr>
+        <tr>
+            <td>fieldset</td>
+            <td>Etiqueta de conjunto de campos.</td>
+        </tr>
+        <tr>
+            <td>figcaption</td>
+            <td>Leyenda de figura.</td>
+        </tr>
+        <tr>
+            <td>figure</td>
+            <td>Grupos contenido multimedia con una leyenda</td>
+        </tr>
+        <tr>
+            <td>form</td>
+            <td>Formulario de entrada.</td>
+        </tr>
+        <tr>
+            <td>h1-h6</td>
+            <td>Niveles de cabecera 1-6.</td>
+        </tr>
+        <tr>
+            <td>header</td>
+            <td>Sección o cabecera de página.</td>
+        </tr>
+        <tr>
+            <td>hr</td>
+            <td>Regla horizontal.</td>
+        </tr>
+        <tr>
+            <td>li</td>
+            <td>Elemento de lista.</td>
+        </tr>
+        <tr>
+            <td>main</td>
+            <td>Contenido principal.</td>
+        </tr>
+        <tr>
+            <td>nav</td>
+            <td>Enlaces de navegación.</td>
+        </tr>
+        <tr>
+            <td>noscript</td>
+            <td>Contenido alternativo para navegadores que no admiten scripts.</td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>Lista ordenada.</td>
+        </tr>
+        <tr>
+            <td>p</td>
+            <td>Párrafo.</td>
+        </tr>
+        <tr>
+            <td>pre</td>
+            <td>Texto preformateado.</td>
+        </tr>
+        <tr>
+            <td>section</td>
+            <td>Sección de contenido.</td>
+        </tr>
+        <tr>
+            <td>table</td>
+            <td>Tabla de datos.</td>
+        </tr>
+        <tr>
+            <td>tfoot</td>
+            <td>Pie de tabla.</td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td>Lista no ordenada.</td>
+        </tr>
+        <tr>
+            <td>video</td>
+            <td>Reproductor de video.</td>
+        </tr>
+    </table>
+
+    <p> 
+        <a href="https://developer.mozilla.org/es/docs/Glossary/Block-level_content" target="_blank">Fuente</a>
+    </p>
+
+    <p> 
+        <a href="index">Regresa a la pagina principal</a>
+    </p>
+</body>
+</html>

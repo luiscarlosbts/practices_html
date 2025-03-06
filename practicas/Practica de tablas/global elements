@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Attributes</title>
+</head>
+<body>
+    <section tabla de global attributes>
+        <h2>Tabla de Global Attributes</h2>
+        <table border="1">
+            <tr>
+                <td>Elemento</td>
+                <td>Descripcion</td>
+            </tr>
+            <tr>
+                <td>onabort, onautocomplete, onautocompleteerror, onblur, oncancel, oncanplay,
+                     oncanplaythrough, onchange, onclick, onclose, oncontextmenu, oncuechange,
+                      ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover,
+                       ondragstart, ondrop, ondurationchange, onemptied, onended, onerror, 
+                       onfocus, oninput, oninvalid, onkeydown, onkeypress, onkeyup, onload, 
+                       onloadeddata, onloadedmetadata, onloadstart, onmousedown, onmouseenter,
+                        onmouseleave, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, 
+                        onpause, onplay, onplaying, onprogress, onratechange, onreset, onresize, onscroll,
+                        onseeked, onseeking, onselect, onshow, onsort, onstalled, onsubmit, onsuspend, ontimeupdate,
+                         ontoggle, onvolumechange, onwaiting.</td>
+                <td>Es una función que se activa cuando ocurre un evento específico. Este código responde a un mensaje 
+                    enviado por un objeto para anunciar una acción</td>
+            </tr>
+            <tr>
+                <td>accesskey</td>
+                <td>Proporciona una pista para generar un atajo de teclado para el elemento actual.</td>
+            </tr>
+            <tr>
+                <td>anchor</td>
+                <td>Associa a un elemento posicionado con un elemento anclado.</td>
+            </tr>
+            <tr>
+                <td>autocapitalize</td>
+                <td>Controla si la entrada de texto se pone en mayúsculas automáticamente a medida 
+                    que el usuario la introduce o edita. </td>
+            </tr>
+            <tr>
+                <td>autocorrect</td>
+                <td>Corrige errores dramaticales. </td>
+            </tr>
+            <tr>
+                <td>autofocus</td>
+                <td>Enfoca un elemento en cuanto carga</td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>Una lista separada por espacios de las clases del elemento. Las clases permiten que CSS y JavaScript seleccionen y
+                    accedan a elementos específicos a través de los selectores de clase</td>
+            </tr>
+            <tr>
+                <td>contenteditable</td>
+                <td>Un atributo enumerado que indica si el usuario debe poder editar el elemento. Si es así, el navegador modifica su 
+                    «widget» para permitir la edición. </td>
+            </tr>
+            <tr>
+                <td>data-*</td>
+                <td>Forma una clase de atributos, denominados atributos de datos personalizados, que permiten el intercambio de información de propiedad entre el HTML
+                    y su representación DOM que pueden utilizar los scripts.</td>
+            </tr>
+            <tr>
+                <td>dir</td>
+                <td>Un atributo enumerado que indica la direccionalidad del texto del elemento.</td>
+            </tr>
+            <tr>
+                <td>draggable</td>
+                <td>Un atributo enumerado que indica si el elemento se puede arrastrar mediante la API de arrastrar y soltar.</td>
+            </tr>
+            <tr>
+                <td>enterkeyhint</td>
+                <td>Proporciona una pista sobre la acción que se realizará cuando el usuario presione la tecla Enter.</td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td>Indica que el elemento aún no es, o ya no es, relevante.</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>Define un identificador único (ID) que debe ser único en todo el documento.</td>
+            </tr>
+            <tr>
+                <td>inputmode</td>
+                <td>Proporciona una sugerencia sobre el tipo de entrada que se espera en el elemento, para ayudar a los navegadores a mostrar el teclado adecuado.</td>
+            </tr>
+            <tr>
+                <td>is</td>
+                <td>Permite especificar el tipo de un elemento personalizado.</td>
+            </tr>
+            <tr>
+                <td>itemid</td>
+                <td>Define un identificador único para el elemento.</td>
+            </tr>
+            <tr>
+                <td>itemprop</td>
+                <td>Define una propiedad del elemento.</td>
+            </tr>
+            <tr>
+                <td>itemref</td>
+                <td>Proporciona una lista de ID de elementos adicionales que tienen propiedades relacionadas con el elemento.</td>
+            </tr>
+            <tr>
+                <td>itemscope</td>
+                <td>Indica que el elemento crea un nuevo ámbito de elementos.</td>
+            </tr>
+            <tr>
+                <td>itemtype</td>
+                <td>Define el tipo de elemento que se está describiendo.</td>
+            </tr>
+            <tr>
+                <td>lang</td>
+                <td>Ayuda a definir el idioma del contenido del elemento.</td>
+            </tr>
+            <tr>
+                <td>nonce</td>
+                <td>Un valor criptográfico que se utiliza para permitir que un script o estilo se ejecute en un contexto de seguridad.</td>
+            </tr>
+            <tr>
+                <td>part</td>
+                <td>Permite a un elemento participar en una sombra DOM.</td>
+            </tr>
+            <tr>
+                <td>slot</td>
+                <td>Asigna un elemento a una ranura en una sombra DOM.</td>
+            </tr>
+            <tr>
+                <td>spellcheck</td>
+                <td>Indica si el elemento debe tener su ortografía y gramática revisadas.</td>
+            </tr>
+            <tr>
+                <td>style</td>
+                <td>Contiene declaraciones CSS para aplicar al elemento.</td>
+            </tr>
+            <tr>
+                <td>tabindex</td>
+                <td>Indica si el elemento puede recibir enfoque y su orden relativo en la navegación por teclado.</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td>Contiene texto que se muestra en un tooltip cuando el ratón se coloca sobre el elemento.</td>
+            </tr>
+            <tr>
+                <td>translate</td>
+                <td>Indica si el contenido del elemento debe ser traducido o no.</td>
+            </tr>
+            <tr>
+                <td>aria-*</td>
+                <td>Define atributos de accesibilidad para mejorar la experiencia de los usuarios con discapacidades.</td>
+            </tr>
+            <tr>
+                <td>role</td>
+                <td>Define el rol del elemento en la accesibilidad.</td>
+            </tr>
+            <tr>
+                <td>data-*</td>
+                <td>Permite almacenar datos personalizados en el elemento.</td>
+            </tr>
+            <tr>
+                <td>draggable</td>
+                <td>Indica si el elemento puede ser arrastrado.</td>
+            </tr>
+            <tr>
+                <td>dropzone</td>
+                <td>Indica si el elemento puede aceptar elementos arrastrados.</td>
+            </tr>
+            <tr>
+                <td>contenteditable</td>
+                <td>Indica si el contenido del elemento es editable.</td>
+            </tr>
+            <tr>
+                <td>spellcheck</td>
+                <td>Indica si el contenido del elemento debe ser revisado ortográficamente.</td>
+            </tr>
+            <tr>
+                <td>contextmenu</td>
+                <td>Asocia un menú contextual personalizado con el elemento.</td>
+            </tr>
+            <tr>
+                <td>autocorrect</td>
+                <td>Indica si el contenido del elemento debe ser autocorregido.</td>
+            </tr>
+            <tr>
+                <td>autocapitalize</td>
+                <td>Indica si el contenido del elemento debe ser capitalizado automáticamente.</td>
+            </tr>
+        </table>
+    </section tabla de global attributes>    
+    <br>
+    <br>
+    <section Tablas ejemplo 1>
+        <table border="1">
+            <tr>
+                <th bgcolor="#808080"><b>Nombre</b></th>
+                <th bgcolor="#808080"><b>Color favorito</b></th>
+            </tr>
+            <div>
+            <tr>
+                <td>Isaac</td>
+                <td>Todos</td>
+            </tr>
+            <tr>
+                <td>Yo</td>
+                <td>Azul Marino</td>
+            </tr>
+        </table>
+    
+    </section Tablas ejemplo 1>
+    <br>
+    <br>
+    <section Tablas ejemplo 2> 
+        <table border="2">
+            <tr>
+                <td rowspan="2"><b>Head1</b></td>
+                <td>item1</td>
+                <td>item2</td>
+                <td>item3</td>
+                <td>item4</td>
+            </tr>
+            <tr>
+                <td>item5</td>
+                <td>item6</td>
+                <td>item7</td>
+                <td>item8</td>
+            </tr>
+            <tr>
+                <td><b>head2</b></td>
+                <td>item9</td>
+                <td>item10</td>
+                <td>item11</td>
+                <td>item12</td>
+            </tr>
+        </table>
+    </section Tablas ejemplo 2>
+    <br>
+    <br>
+    <section Tabla ejemplo 3>
+        <table border="3">
+            <tr>
+                <td colspan="2"><b>Head 1</b></td>
+                <td colspan="2"><b>Head 2</b></td>
+            </tr>
+            <tr>
+                <td><b>Head 3</b></td>
+                <td><b>Head 4</b></td>
+                <td><b>Head 5</b></td>
+                <td><b>Head 6</b></td>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+                <td>F</td>
+                <td>G</td>
+                <td>H</td>
+            </tr>
+        </table>
+    </section Tabla ejemplo 3>
+    <br>
+    <br>
+    <section Tabla ejemplo 4>
+        <table border="1">
+            <tr>
+                <td></td>
+                <td><b>TABLE</b></td>
+                <td><b>TR</b></td>
+                <td><b>TD</b></td>
+                <td><b>TH</b></td>
+                <td><b>CAPTION</b></td>
+            </tr>
+            <tr>
+                <td><b>BORDER</b></td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b>ROWSPAN</b></td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">X</td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b>COLSPAN</b></td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">X</td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b>ALIGN</b></td>
+                <td align="center">-</td>
+                <td align="center">X</td>
+                <td align="center">X</td>
+                <td align="center">X</td>
+                <td align="center">X</td>
+            </tr>
+            <tr>
+                <td><b>VALIGN</b></td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b> WIDTH</b></td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b>HEIGTH</b></td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b>CELLPADING</b></td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+            <tr>
+                <td><b>CELLSPACING</b></td>
+                <td align="center">X</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+                <td align="center">-</td>
+            </tr>
+        </table>
+    </section Tabla ejemplo 4>
+    <br>
+    <br>
+    <section Tabla ejemplo 5>
+        <table border="1"> 
+        <tr>
+            <td colspan="3" bgcolor="808080">Invoice #123456789</td>
+            <td bgcolor="808080">14 January 2025</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>pay to</b>
+                <br>
+            Acme Billing co.
+            <br>
+            123 Main Street
+            <br>
+            Cityville, NA 12345
+        </td>
+        <td colspan="2"><b>Customer</b>
+            <br>
+            Jhon Smith
+            <br>
+            321 Willow Lane
+            <br>
+            Southeast Northwest, MA 54321
+        </td>
+        </tr>
+        <tr>
+            <td bgcolor="808080"><b>Name / Description</b></td>
+            <td bgcolor="808080"><b>Qty.</b></td>
+            <td bgcolor="808080"><b>@</b></td>
+            <td bgcolor="808080"><b>Cost</b></td>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.0</td>
+        </tr>
+        <tr>
+            <td>Staples (box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Subtotal</b></td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Tax</b></td>
+            <td>8%</td>
+            <td>8.80</td>
+        </tr>
+        <tr>
+            <td colspan="3"><b>Grand Total</b></td>
+            <td>$118.80</td>
+        </tr>
+    </table>
+    </section Tabla ejemplo 5>
+</body>
+</html>

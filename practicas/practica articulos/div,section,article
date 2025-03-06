@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"> 
+    <title>Articulo de Div section y article</title>
+</head>
+<body>
+    <header>
+        
+    <h1>Diferencias entre Div, Section y Article</h1>
+    <h2> Div </h2>
+        <p> Es un contenedor generico No tiene efecto en el contenido o en el diseño hasta que se le aplica un estilo de alguna manera usando CSS </p>
+        <p> 
+            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/div" target="_blank">Fuente</a>
+        </p>
+    <h2> Section</h2>
+    <p> Section es un elemento de sección genérico, y solo se debe usar si no hay un elemento más específico para representarlo. Como ejemplo, un menú de navegación debería estar incluido en un elemento nav, pero una lista de resultados de una búsqueda o una visualización de mapa y sus controles no tienen elementos específicos y podrían colocarse dentro de un section.</p>
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/section" target="_blank">Fuente</a>
+
+    <h2> Article</h2>
+    <p> Article en html es un elemento que representa la composicion de un contenido automaticamente como un sitio, documento o 
+        aplicacion que deberia ser auto distribuido y reutilizable </p>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">Fuente</a>
+    <p> 
+        <a href="index">Regresa a la pagina principal</a>
+    </p>
+
+
+
+</body>
+</html>
