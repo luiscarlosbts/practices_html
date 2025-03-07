@@ -42,7 +42,7 @@
                     <td><input type="email" name="mail" id="mail" placeholder="Correo Electrónico" required></td>
                     <!-- Modificación: Se cambió el tipo de campo a "tel" y se añadió un patrón para mejorar la validación del teléfono -->
                     <td bgcolor="#00c5ff" align="right"><label for="tel">Teléfono:</label></td>
-                    <td><input type="text" name="tel" id="tel" placeholder="Teléfono" pattern="[0-9]{10}" required></td>
+                    <td><input type="tel" name="tel" id="tel" placeholder="Teléfono" pattern="[0-9]{10}" required></td>
                 </tr>
                 <tr>
                     <!-- Modificación: Se utilizó el campo "datetime-local" para la fecha de la cita -->
@@ -68,12 +68,12 @@
                     <td bgcolor="#00c5ff" align="right"><label for="alergia">¿Tienes alergia(s)?</label></td>
                     <td>
                         <label><input type="radio" name="alergia" value="true"> Sí</label>
-                        <label><input type="radio" name="alergia" value="false"> No</label>
+                        <label><input type="radio" name="alergia" value="false" checked> No</label>
                     </td>
                     <td bgcolor="#00c5ff" align="right"><label for="discapacidad">¿Tienes discapacidad(s)?</label></td>
                     <td>
                         <label><input type="radio" name="discapacidad" value="true"> Sí</label>
-                        <label><input type="radio" name="discapacidad" value="false"> No</label>
+                        <label><input type="radio" name="discapacidad" value="false" checked> No</label>
                     </td>
                 </tr>
                 <tr>
