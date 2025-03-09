@@ -6,19 +6,27 @@
     <title>Restaurante</title>
 </head>
 <body bgcolor="#e98600">
-    <form action="inicio.html" id="login">
-        <label for="user">Nombre de Usuario*</label>
-        <input type="text" name="user" id="user" placeholder="Usuario" required maxlength="35" minlength="3" pattern="[A-Za-z]+" title="Solo se permiten letras sin espacios" autofocus>
-        <br>
-        <br>
-        <label for="password">Contraseña*</label>
-        <input type="password" name="password" id="password" placeholder="Contraseña" required minlength="8" maxlength="16" title="Se permiten de 8 a 16 caracteres">
-        <br><br>
-        <input type="checkbox" name="remember" id="remember"> 
-        <label for="remember">Recordar Contraseña</label>
-        <br><br>
-        <button type="submit">Enviar</button>
-        <button type="reset">Resetear</button> 
-    </form>
+    <center>
+
+        <img src="https://store-images.s-microsoft.com/image/apps.31887.13527552335205219.79bdc359-aeae-43cd-ac4a-a9b8c2321785.972ea833-efd0-4edd-b0dc-20ea591f449f" width="150">
+
+        <h2>Iniciar Sesión</h2>
+        <form action="inicio.html" id="login">
+                <label for="user"><strong>Nombre de Usuario*</strong></label><br>
+                <input type="text" name="user" id="user" placeholder="Usuario" required maxlength="35" minlength="3" pattern="[A-Za-z]+" title="Solo se permiten letras sin espacios" autofocus>
+                <br><br>
+
+                <label for="password"><strong>Contraseña*</strong></label><br>
+                <input type="password" name="password" id="password" placeholder="Contraseña" required minlength="8" maxlength="16" title="Se permiten de 8 a 16 caracteres">
+                <br><br>
+
+                <input type="checkbox" name="remember" id="remember">
+                <label for="remember">Recordar Contraseña</label>
+                <br><br>
+
+                <button type="submit"><strong>Enviar</strong></button>
+                <button type="reset"><strong>Resetear</strong></button>
+        </form>
+    </center>
 </body>
 </html>
