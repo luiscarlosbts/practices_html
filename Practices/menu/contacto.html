@@ -15,9 +15,40 @@
                 <td><a href="menu.html">Menú</a></td>
                 <td><a href="equipo.html">Nuestro Equipo</a></td>
                 <td><a href="nosotros.html">Sobre Nosotros</a></td>
+                <td><a href="login.html">Cerrar Sesión</a></td>
             </tr>
         </table>
     </nav>
-    <h1>Contacto</h1>
+    <h1>Contacto:</h1>
+
+    <p>Agradecemos tus reseñas para seguir mejorando. Si te gustaría compartir qué te gustó o dar sugerencias, deja tus comentarios aquí:</p>
+
+    <form action="" method="POST">
+        <label for="name"><b>Nombre:</b></label><br>
+        <input type="text" id="name" name="name" required maxlength="35" pattern="[A-Za-z]+" title="Solo se permiten letras sin espacios" autofocus><br><br>
+
+        <label for="branch"><b>Sucursal:</b></label><br>
+        <select id="branch" name="branch" required>
+            <option disabled selected>Seleccione Sucursal</option>
+            <option value="sucursal1">Tepatitlán</option>
+            <option value="sucursal2">Guadalajara</option>
+            <option value="sucursal3">Itlahuacán de los Membrillos</option>
+            <option value="sucursal4">San Miguel</option>
+        </select><br><br>
+
+        <label for="comment"><b>Comentario:</b></label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50" required maxlength="300" title="Máximo 300 caracteres"></textarea><br><br>
+
+        <label for="rating"><b>Calificación:</b></label><br>
+        <input type="number" id="rating" name="rating" min="1" max="10" required>
+        <label><b>/ 10</b></label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form><br><br><br><br><br><br><br><br>
+
+    <footer align="center">
+        <p>Restaurante - 2025</p>
+        <br>
+    </footer>
 </body>
 </html>
