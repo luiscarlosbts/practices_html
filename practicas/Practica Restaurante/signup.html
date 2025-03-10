@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body bgcolor="#A52A2A">
+
+    <!-- Título de la página -->
+    <h1 align="center">Registro de Usuario</h1>
+
+    <!-- Formulario de registro -->
+    <form action="login.html" method="post" align="center">
+        
+        <!-- Sección de información personal -->
+        <section>
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <div>
+                    <label for="name">Nombre:</label><br>
+                    <input type="text" id="name" name="name" required pattern="[A-Za-z ]{1,85}">
+                </div>
+                <br>
+
+                <div>
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="phone">Número de Teléfono:</label><br>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" inputmode="numeric">
+                </div>
+                <br>
+            </fieldset>
+        </section>
+
+        <!-- Sección de credenciales -->
+        <section>
+            <fieldset>
+                <legend>Credenciales de Acceso</legend>
+
+                <div>
+                    <label for="password">Contraseña: (debe tener entre 6 a 20 caracteres y un carácter especial)</label><br>
+                    <input type="password" id="password" name="password" required minlength="6" maxlength="20" pattern=".*[!@#$%^&*].*">
+                </div>
+                <br>
+
+                <div>
+                    <label for="confirm_password">Confirmar Contraseña:</label><br>
+                    <input type="password" id="confirm_password" name="confirm_password" required maxlength="20" pattern=".*[!@#$%^&*].*">
+                </div>
+                <br>
+            </fieldset>
+        </section>
+
+        <!-- Botón de envío -->
+        <div>
+            <input type="submit" value="Registrarse">
+        </div>
+    </form>
+</body>
+</html>
