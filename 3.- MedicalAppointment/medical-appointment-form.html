@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Appointment</title>
+  </head>
+  <body>
+    <h1 align="center">Medical Appointment</h1>
+    <form action="confirm.html" method="get" align="center">
+      <section name="patient-section">
+        <h2>Patient Information</h2>
+        <label for="patient-name">Full name: *</label>
+        <input
+          type="text"
+          name="patient-name"
+          size="40"
+          maxlength="40"
+          minlength="10"
+          required
+        />
+        <br /><br />
+        <label for="patient-birth">Date of Birth: *</label>
+        <input
+          type="date"
+          name="patient-birth"
+          min="1900-01-01"
+          max="2025-05-28"
+          required
+        />
+        <br /><br />
+        <label for="patient-phone">Phone number: * </label>
+        <input
+          type="tel"
+          pattern="[0-9]{10}"
+          name="patient-phone"
+          placeholder="10 digit phone number"
+          maxlength="10"
+          required
+        />
+        <br /><br />
+        <label for="patient-mail">Email address: *</label>
+        <input
+          name="patient-mail"
+          type="text"
+          pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"
+          placeholder="example@ex.com"
+          size="20"
+          required
+        />
+        <br />
+        <h3>Emergency contact</h3>
+        <label for="emergency-name">Full name: *</label>
+        <input
+          type="text"
+          name="emergency-name"
+          size="40"
+          maxlength="40"
+          minlength="10"
+          required
+        />
+        <br /><br />
+        <label for="emergency-phone">Phone number: *</label>
+        <input
+          name="emergency-phone"
+          type="tel"
+          pattern="[0-9]{10}"
+          placeholder="10 digit phone number"
+          maxlength="10"
+          required
+        />
+      </section>
+      <section name="appointment-section">
+        <h2>Appointment Information</h2>
+
+        <label for="appointment-date">Preffered date: *</label>
+        <input
+          name="appointment-date"
+          type="date"
+          min="2025-05-29"
+          max="2025-12-31"
+          required
+        />
+        <br /><br />
+        <label for="appointment-time">Preffered time: *</label>
+        <input
+          name="appointment-time"
+          type="time"
+          min="09:00"
+          max="18:00"
+          required
+        />
+        <br /><br />
+        <label for="appointment-department">Department/Specialty: *</label>
+        <select
+          name="appointment-department"
+          required
+        >
+          <option value="" disabled selected>Select a specialty</option>
+          <option value="general-medicine-department">General Medicine</option>
+          <option value="cardiology-department">Cardiology</option>
+          <option value="dermatology-department">Dermatology</option>
+          <option value="orthopedics-department">Orthopedics</option>
+          <option value="pediatrics-department">Pediatrics</option>
+          <option value="gynecology-department">Gynecology</option>
+          <option value="neurology-department">Neurology</option>
+          <option value="psychiatry-department">Psychiatry</option>
+          <option value="emergency-medicine-department">
+            Emergency Medicine
+          </option>
+        </select>
+
+        <br /><br />
+        <label for="appointment-doctor">Doctor Prefference:</label>
+        <select name="appointment-doctor" required>
+          <option value="no-preference">No Preference</option>
+          <option value="dr-smith">Dr. Smith (General Medicine)</option>
+          <option value="dr-johnson">Dr. Johnson (Cardiology)</option>
+          <option value="dr-williams">Dr. Williams (Dermatology)</option>
+          <option value="dr-brown">Dr. Brown (Orthopedics)</option>
+          <option value="dr-davis">Dr. Davis (Pediatrics)</option>
+        </select>
+        <br /><br />
+        <label for="appointment-type">Appointment type: *</label>
+        <input
+          type="radio"
+          name="appointment-type"
+          value="new-patient-appointment-type"
+          required
+        />
+        <label for="newPatient">New Patient</label>
+        <input
+          type="radio"
+          name="appointment-type"
+          value="follow-up-appointment-type"
+        />
+        <label for="newPatient">Follow-Up</label>
+        <input
+          type="radio"
+          name="appointment-type"
+          value="consultation-appointment-type"
+        />
+        <label for="newPatient">Consultation</label>
+      </section>
+      <section name="medicalhistory-section">
+        <h2>Medical History</h2>
+        <label for="current-medication">Current Medication:</label>
+        <textarea
+          name="current-medication"
+          placeholder="..."
+        ></textarea>
+        <br /><br />
+        <label for="allergies">Known Allergies:</label>
+        <textarea name="allergies" placeholder="..."></textarea>
+      </section>
+      <br />
+      <button type="submit">Schedule Appointment</button>
+      <button type="reset">Clear Form</button>
+    </form>
+  </body>
+</html>

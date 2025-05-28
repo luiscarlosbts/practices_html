@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Sapori di Roma Restaurant</title>
+  </head>
+  <body>
+    <h1 align="center">Login Sapori di Roma</h1>
+    <form action="init.html" method="get">
+      <section name="login-section" align="center" >
+        <label for="user-name">Username:</label>
+        <input type="text" name="user-name" autofocus maxlength="20" size="20" minlength="5" pattern="[A-Za-z]+" title="Spaces and special characters are not allowed" required/>
+        <br /><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" maxlength="20" size="20" minlength="8"  required />
+        <br />
+        <input type="checkbox" name="remember-password" />
+
+        <label for="remember-password">Remember password</label>
+        <br /><br />
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </section>
+    </form>
+  </body>
+</html>

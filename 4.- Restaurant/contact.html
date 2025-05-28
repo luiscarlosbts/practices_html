@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sapori di Roma</title>
+  </head>
+  <body>
+    <nav>
+      <table align="center">
+        <thead>
+          <tr>
+            <th><a href="init.html">➞ Main Page</a></th>
+            <th><a href="menu.html">➞ Menu</a></th>
+            <th><a href="team.html">➞ Our Team</a></th>
+            <th><a href="about-us.html">➞ About us</a></th>
+            <th><a href="login.html">➞ Sign Out</a></th>
+          </tr>
+        </thead>
+      </table>
+    </nav>
+    <section align="center">
+      <h2 align="center">Contact Us</h2>
+      <address>
+        You can call us: <a href="tel:+459185728179">+45 91 8572 8179</a><br />
+        Send an email:
+        <a href="mailto:saporidiromareservations@mdr.com"
+          >saporidiromareservations@mdr.com</a
+        >
+      </address>
+      <hr />
+      <h3>Reservations:</h3>
+      <form action="init.html" method="get">
+        <label for="reservation-name">Full Name:</label>
+        <input
+          type="text"
+          name="reservation-name"
+          size="40"
+          maxlength="40"
+          minlength="10"
+          autofocus
+          required
+        />
+        <br /><br />
+        <label for="reservation-phone">Phone Number:</label>
+        <input
+          type="tel"
+          name="reservation-phone"
+          pattern="[0-9]{10}"
+          placeholder="10 digit phone number"
+          maxlength="10"
+          title="Only numbers"
+          required
+        />
+        <br /><br />
+        <label for="reservation-date">Preferred Date:</label>
+        <input
+          type="date"
+          name="reservation-date"
+          min="2025-05-29"
+          max="2025-06-30"
+          required
+        />
+
+        <label for="reservation-time">Arrival Time:</label>
+        <input
+          type="time"
+          name="reservation-time"
+          min="12:00"
+          max="21:00"
+          required
+        />
+        <br />
+        <br />
+        <label for="reservation-persons-quantity">Persons Quantity:</label>
+        <input
+          type="number"
+          name="reservation-persons-quantity"
+          min="2"
+          max="20"
+          value="2"
+          required
+        />
+        <br /><br />
+        <button type="submit">Book</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+    <hr />
+  </body>
+</html>
